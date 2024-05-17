@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #d0effd;
+}
+
+body {
+    background-color: #e8f9ff;
+}
+
+.Header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #006CA5;
+    z-index: 100;
+}
+
+.hover-image:hover {
+    cursor: pointer;
+    background-image: url(image/clicklb.png);
+
+}
+.navigasi {
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    z-index: 100;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 500px; /* Specify the width */
+    height: 500px; /* Specify the height */
+    background-image: url('image/leftb.png'); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+.rb a {
+    text-decoration: none;
+    opacity: 1;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.left:hover{
+    background-image: url('image/clicklb.png'); /* Change the background image on hover */
+}
+
+.right {
+    width: 500px; /* Specify the width */
+    height: 500px; /* Specify the height */
+    background-image: url('image/rightb.png'); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+.right:hover{
+    background-image: url('image/clickrb.png'); /* Change the background image on hover */
+}
